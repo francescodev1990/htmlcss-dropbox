@@ -5,15 +5,24 @@
 }
 
 header{
-    height: 80px;
+    height: 45px;
     background-color: white;
+    width: 100%;
 }
 
-header li{
+.first-ul li{
     list-style-type: none;
     color: grey;
     margin: 0 auto;
     float: left;
+    padding: 15px 15px 15px 15px;
+}
+
+.second-ul li{
+    list-style-type: none;
+    color: grey;
+    margin: 0 auto;
+    float: right;
     padding: 15px 15px 15px 15px;
 }
 .botton-1{
