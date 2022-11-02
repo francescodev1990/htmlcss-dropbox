@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 80px;
+    background-color: white;
+}
+
+header li{
+    list-style-type: none;
+    color: grey;
+    margin: 0 auto;
+    float: left;
+    padding: 15px 15px 15px 15px;
+}
+.botton-1{
+    background-color: blue;
+    font-size: large;
+    color: lightgrey;
+    width: 70px;
+}
