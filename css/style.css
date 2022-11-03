@@ -106,9 +106,9 @@ h5{
 }
 
 .col-30{
-    width: 30%;
+    width: 25%;
+    height: 1250px;
     border: 1px solid lightgrey;
-    height: 800px;
     display: inline-block;
     justify-content: center;
 }
@@ -136,4 +136,44 @@ ul{
 
 .hr-2{
     width: 50px;
+    margin-left: 50px;
+}
+
+.last-didascaly{
+    margin-right: 380px;
+}
+
+.col-100{
+    width: 90%;
+    height: 250px;
+    border: 1px solid lightgrey;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 100px;
+    margin-right: 35px;
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.risorsa{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.risorsa-2{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+#paragrafo{
+    margin-left: 50px;
+}
+
+.button-dx{
+    position: absolute;
+    left: 1850px;
+    bottom: -1250px;
+    width: 150px;
 }
