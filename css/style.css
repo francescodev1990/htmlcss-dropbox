@@ -49,9 +49,19 @@ h1{
 }
 
 .col-25{
+    position: relative;
     font-size: small;
     margin-left: 25%;
     padding: 20px 20px 20px 20px;
+}
+
+.col-25 img{
+    position: absolute;
+    width: 850px;
+    height: 450px;
+    left: 270px;
+    bottom: -140px;
+    top: -220px;
 }
 
 .button-2{
