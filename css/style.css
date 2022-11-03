@@ -69,7 +69,7 @@ h1{
     color: white;
     width: 180px;
     height: 30px;
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 h2{
@@ -78,9 +78,26 @@ h2{
     text-align: center;
 }
 
+h4{
+    text-align: justify;
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 35px;
+    margin-top: 25px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+h5{
+    text-align: justify;
+    margin-left: 50px;
+}
+
 .radio-box{
     text-align: center;
-    margin-right: 300px;
+    margin-left: -300px;
     color: grey;
 }
 
@@ -91,7 +108,7 @@ h2{
 .col-30{
     width: 30%;
     border: 1px solid lightgrey;
-    height: 850px;
+    height: 800px;
     display: inline-block;
     justify-content: center;
 }
@@ -102,4 +119,21 @@ hr{
 
 ul{
     list-style-type: none;
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 50px;
+}
+
+.button-blue{
+    color: white;
+    background-color: blueviolet;
+    width: 300px;
+    font-size: 18px;
+}
+.alternative{
+    margin-right: 170px;
+}
+
+.hr-2{
+    width: 50px;
 }
