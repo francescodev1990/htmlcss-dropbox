@@ -84,8 +84,22 @@ h2{
     color: grey;
 }
 
+.container{
+    text-align: center;
+}
+
 .col-30{
     width: 30%;
     border: 1px solid lightgrey;
-    height: 450px;
+    height: 850px;
+    display: inline-block;
+    justify-content: center;
+}
+
+hr{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
 }
