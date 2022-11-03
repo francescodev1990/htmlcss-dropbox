@@ -83,3 +83,9 @@ h2{
     margin-right: 300px;
     color: grey;
 }
+
+.col-30{
+    width: 30%;
+    border: 1px solid lightgrey;
+    height: 450px;
+}
