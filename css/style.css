@@ -177,3 +177,26 @@ p{
     bottom: -1250px;
     width: 150px;
 }
+
+.container-img img{
+    float: left;
+    margin-left: 105px;
+    margin-top: 50px;
+    width: 750px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.partner{
+    position: absolute;
+    bottom: -1650px;
+    left: 950px;
+    font-size: xx-large;
+}
+
+.paragrafo-2{
+    position: absolute;
+    bottom: -1900px;
+    left: 950px;
+    font-size: 25px;
+}
