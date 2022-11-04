@@ -224,20 +224,26 @@ p{
 /* INIZIO LAYOUT DUE RIGHE TRE COLONNE CON FOTO */
 
 .container-layout{
-    max-width: 1700px;
-    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1600px;
+    height: 650px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 80px;
-    border: 1px solid black;
+    margin-bottom: 650px;
 }
 .row-layout{
     width: 100%;
 }
+.col-layout{
+    width: calc(100%/3);
+}
+.col-layout-1 img{
+    width: 350px;
+}
 
-
-
-
+/* FINE LAYOUT DUE RIGHE TRE COLONNE CON FOTO */
 
 
 
