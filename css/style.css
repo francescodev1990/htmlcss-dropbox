@@ -11,6 +11,8 @@ header{
     margin-top: 10px;
 }
 
+/* INIZIO SEZIONE ABBONAMENTI */
+
 .first-ul li{
     list-style-type: none;
     color: grey;
@@ -175,7 +177,7 @@ p{
 
 /* FINE SEZIONE ABBONAMENTI */
 
-/* INIZIO SEZIONE PARTNER DROPBOX */
+/* INIZIO SEZIONE PARTNER DROPBOX CON FOTO*/
 
 .block-1{
     max-width: 1650px;
@@ -217,7 +219,21 @@ p{
     background: white;
     }
 
-    /* FINE SEZIONE PARTNER DROPBOX */
+    /* FINE SEZIONE PARTNER DROPBOX CON FOTO */
+
+/* INIZIO LAYOUT DUE RIGHE TRE COLONNE CON FOTO */
+
+.container-layout{
+    max-width: 1700px;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border: 1px solid black;
+}
+.row-layout{
+    width: 100%;
+}
 
 
 
@@ -236,10 +252,6 @@ p{
 
 
 
-
-
-
-/* FINE SEZIONE PARTNER DROPBOX */
 /* INIZIO SEZIONE QUADRATI */
 
 #squares-section{
