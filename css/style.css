@@ -78,11 +78,6 @@ h2{
     text-align: center;
 }
 
-h4{
-    text-align: justify;
-    margin-left: 50px;
-}
-
 h3{
     font-size: 35px;
     margin-top: 25px;
@@ -90,7 +85,7 @@ h3{
     margin-left: 50px;
 }
 
-h5{
+h4, h5{
     text-align: justify;
     margin-left: 50px;
 }
@@ -178,39 +173,74 @@ p{
     width: 150px;
 }
 
-.container-img img{
-    float: left;
-    margin-left: 105px;
-    margin-top: 50px;
-    width: 750px;
-    height: 600px;
-    margin-bottom: 100px;
+/* FINE SEZIONE ABBONAMENTI */
+
+/* INIZIO SEZIONE PARTNER DROPBOX */
+
+.block-1{
+    max-width: 1650px;
+    height: 650px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
 }
 
-.partner{
-    position: absolute;
-    bottom: -1650px;
-    left: 950px;
-    font-size: xx-large;
+.row{
+    width: 100%;
+    margin: 0 auto;
 }
 
-.paragrafo-2{
+.col-50 img{
+    width: 46%;
+}
+.text-1{
     position: absolute;
-    bottom: -1900px;
-    left: 950px;
+    top: 2850px;
+    left: 1150px;
     font-size: 25px;
 }
-
-.operation{
-    position: relative;
+.text-2{
+    position: absolute;
+    top: 2970px;
+    left: 1150px;
+    font-size: 25px;
 }
+#btn {
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 10px 20px;
+    border: solid 1px #0076a3;
+    background: white;
+    }
 
-.operazioni{
-   margin: 0 auto;
-   position: absolute;
-   top: 700px;
-   font-size: 35px;
-}
+    /* FINE SEZIONE PARTNER DROPBOX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE SEZIONE PARTNER DROPBOX */
+/* INIZIO SEZIONE QUADRATI */
 
 #squares-section{
     display: flex;
@@ -218,7 +248,7 @@ p{
 }
 
 .bg-grey{
-    background-color: rgba(245,245,245,255);
+    background-color: rgba(245,245,245);
 }
 .bg-grey img{
     margin-left: 55px;
@@ -247,34 +277,35 @@ p{
 }
 
 .bg-1{
-    background-color: rgba(162,211,155,255);
+    background-color: rgba(162,211,155);
+    border: 15px solid rgba(209,233,205);
 }
 .bg-2{
-    background-color: rgba(97,8,43,255);
+    background-color: rgba(97,8,43);
 }
 .bg-3{
-    background-color: rgba(0,147,206,255);
+    background-color: rgba(0,147,206);
 }
 .bg-4{
-    background-color: rgba(255,28,28,255);
+    background-color: rgba(255,28,28);
 }
 
 .bg-brown{
-    background-color: rgba(213,0,31,255);
+    background-color: rgba(213,0,31);
 }
 .bg-celeste{
-    background-color: rgba(180,208,231,255);
+    background-color: rgba(180,208,231);
 }
 .bg-violet{
-    background-color: rgba(13,36,129,255);
+    background-color: rgba(13,36,129);
 }
 .bg-lightgrey{
-    background-color: rgba(255,216,48,255);
+    background-color: rgba(255,216,48);
 }
 
 .square-sm img{
     position: absolute;
-    filter: invert();
+    filter: invert(1);
     top: 165px;  
     left: 100px;
     width: 200px;
