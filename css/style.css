@@ -201,15 +201,81 @@ p{
     font-size: 25px;
 }
 
-.content img{
-    position: absolute;
-    top: 3500px;
-    width: 300px;
+.operation{
+    position: relative;
 }
 
 .operazioni{
+   margin: 0 auto;
+   position: absolute;
+   top: 700px;
+   font-size: 35px;
+}
+
+#squares-section{
+    display: flex;
+    position: relative;
+}
+
+.bg-grey{
+    background-color: rgba(245,245,245,255);
+}
+.bg-grey img{
+    margin-left: 55px;
+    margin-top: 45px;
+    width: 280px;
+}
+
+
+.display-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.square-sm{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.bg-1{
+    background-color: rgba(162,211,155,255);
+}
+.bg-2{
+    background-color: rgba(97,8,43,255);
+}
+.bg-3{
+    background-color: rgba(0,147,206,255);
+}
+.bg-4{
+    background-color: rgba(255,28,28,255);
+}
+
+.bg-brown{
+    background-color: rgba(213,0,31,255);
+}
+.bg-celeste{
+    background-color: rgba(180,208,231,255);
+}
+.bg-violet{
+    background-color: rgba(13,36,129,255);
+}
+.bg-lightgrey{
+    background-color: rgba(255,216,48,255);
+}
+
+.square-sm img{
     position: absolute;
-    bottom: -2400px;
-    left: 85px;
-    font-size: 50px;
+    filter: invert();
+    top: 165px;  
+    left: 100px;
+    width: 200px;
 }
