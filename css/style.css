@@ -335,3 +335,21 @@ a{
     left: 100px;
     width: 200px;
 }
+
+.container-mini{
+    max-width: 2300px;
+    height: 350px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    background-color: rgba(180,208,231);
+}
+.row-mini{
+    width: 100%;
+}
+.p-mini{
+    position: absolute;
+    left: 1000px;
+    top: 145px;
+    font-size: 35px;
+}
