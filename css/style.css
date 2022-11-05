@@ -5,8 +5,9 @@
 }
 
 header{
+    position: fixed;
     height: 45px;
-    background-color: white;
+    background-color: transparent;
     width: 100%;
     margin-top: 10px;
 }
@@ -215,7 +216,7 @@ p{
     font: bold 12px Arial, Helvetica, sans-serif;
     color: grey;
     padding: 10px 20px;
-    border: solid 1px #0076a3;
+    border: solid 1px transparent;
     background: white;
     }
 
@@ -337,7 +338,7 @@ a{
 }
 
 .container-mini{
-    max-width: 2300px;
+    max-width: 2600px;
     height: 350px;
     position: relative;
     margin: 0 auto;
@@ -353,3 +354,29 @@ a{
     top: 145px;
     font-size: 35px;
 }
+.col-mini-2{
+    position: absolute;
+    left: 1500px;
+    top: 180px;
+}
+
+
+summary{
+	cursor: pointer;
+	border-top: 1px solid;
+	padding: 10px;
+	margin: 0;
+    line-height: 55px;
+}
+
+details[open] > summary:before { transform: rotate(90deg); }
+ 
+details[open] summary ~ * {
+  animation: sweep 0.8s ease-in-out;
+  animation: sweep 0.8s ease-in;
+}
+@keyframes sweep {
+  0% {opacity: 0; transform: translateX(-10px)}
+  100% {opacity: 1; transform: translateX(0)}
+}
+
