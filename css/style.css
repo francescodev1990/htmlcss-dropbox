@@ -219,6 +219,18 @@ p{
     border: solid 1px transparent;
     background: white;
     }
+    #btn-2 {
+        outline: none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        font: bold 12px Arial, Helvetica, sans-serif;
+        color: grey;
+        padding: 10px 20px;
+        border: solid 1px transparent;
+        background: white;
+        }
+
 
     /* FINE SEZIONE PARTNER DROPBOX CON FOTO */
 
@@ -405,3 +417,4 @@ footer{
 .footer-col h4{
     font-size: 20px;
 }
+
